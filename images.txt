@@ -1,9 +1,22 @@
-nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-mysql:5.7
+#redis
 redis
+#node
 node:18.20.0
+node:18
+node:14
+#html2pdf
+liyibo888/html2pdf:v1
+#mysql
+mysql:5.7
+mysql:5.7.43
+#maven
+maven:3.8.4
+#jdk
+openjdk:8-jdk-alpine
+#nginx
+nginx:alpine
