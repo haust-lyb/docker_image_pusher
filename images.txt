@@ -20,3 +20,4 @@ maven:3.8.4
 openjdk:8-jdk-alpine
 #nginx
 nginx:alpine
+oracleinanutshell/oracle-instantclient:19.3
