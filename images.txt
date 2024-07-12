@@ -22,3 +22,4 @@ openjdk:8-jdk-alpine
 nginx:alpine
 #oracleinstantclient
 dawidesz/oracle-instant-client:19.3
+tomcat:7
