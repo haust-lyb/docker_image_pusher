@@ -8,7 +8,7 @@ redis
 #node
 node:18.20.0
 node:18
-node:14
+--platform=linux/arm64,linux/amd64 node:14
 #html2pdf
 --platform=linux/arm64 liyibo888/html2pdf:v1
 --platform=linux/amd64 liyibo888/html2pdf:v1
