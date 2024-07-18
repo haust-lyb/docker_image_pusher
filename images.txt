@@ -19,7 +19,8 @@ node:14
 #maven
 maven:3.8.4
 #jdk
-openjdk:8-jdk-alpine
+--platform=linux/amd64 openjdk:8-jdk-alpine
+--platform=linux/arm64 openjdk:8-jdk-alpine
 #nginx
 --platform=linux/amd64 nginx:alpine
 --platform=linux/arm64 nginx:alpine
