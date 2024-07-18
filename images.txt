@@ -10,19 +10,19 @@ node:18.20.0
 node:18
 node:14
 #html2pdf
-liyibo888/html2pdf:v1 --platform=linux/arm64
-liyibo888/html2pdf:v1 --platform=linux/amd64
+--platform=linux/arm64 liyibo888/html2pdf:v1
+--platform=linux/amd64 liyibo888/html2pdf:v1
 #mysql
 mysql:5.7
-mysql:5.7.43 --platform=linux/arm64
-mysql:5.7.43 --platform=linux/amd64
+--platform=linux/arm64 mysql:5.7.43
+--platform=linux/amd64 mysql:5.7.43
 #maven
 maven:3.8.4
 #jdk
 openjdk:8-jdk-alpine
 #nginx
-nginx:alpine --platform=linux/amd64
-nginx:alpine --platform=linux/arm64
+--platform=linux/amd64 nginx:alpine
+--platform=linux/arm64 nginx:alpine
 #oracleinstantclient
 dawidesz/oracle-instant-client:19.3
 tomcat:7
