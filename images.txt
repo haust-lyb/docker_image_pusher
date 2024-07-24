@@ -12,8 +12,8 @@ node:18.20.0
 --platform=linux/arm64 node:14
 --platform=linux/amd64 node:14
 #html2pdf
---platform=linux/arm64 liyibo888/html2pdf:v1
---platform=linux/amd64 liyibo888/html2pdf:v1
+--platform=linux/arm64 liyibo888/html2pdf:latest
+--platform=linux/amd64 liyibo888/html2pdf:latest
 #mysql
 --platform=linux/amd64 mysql:5.7.43
 --platform=linux/amd64 mysql:8.4
