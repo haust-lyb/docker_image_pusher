@@ -1,8 +1,8 @@
-#html2pdf
+# html2pdf
 --platform=linux/arm64 liyibo888/html2pdf:latest
 --platform=linux/amd64 liyibo888/html2pdf:latest
-#dozzle
+# dozzle
 --platform=linux/arm64 amir20/dozzle:latest
 --platform=linux/amd64 amir20/dozzle:latest
-#ftp
+# ftp
 --platform=linux/amd64 stilliard/pure-ftpd:latest
