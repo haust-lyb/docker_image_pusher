@@ -1,8 +1,10 @@
 # html2pdf
---platform=linux/arm64 liyibo888/html2pdf:latest
---platform=linux/amd64 liyibo888/html2pdf:latest
+#--platform=linux/arm64 liyibo888/html2pdf:latest
+#--platform=linux/amd64 liyibo888/html2pdf:latest
 # dozzle
---platform=linux/arm64 amir20/dozzle:latest
---platform=linux/amd64 amir20/dozzle:latest
+#--platform=linux/arm64 amir20/dozzle:latest
+#--platform=linux/amd64 amir20/dozzle:latest
 # ftp
---platform=linux/amd64 stilliard/pure-ftpd:latest
+#--platform=linux/amd64 stilliard/pure-ftpd:latest
+# homarr 自托管导航面板
+--platform=linux/amd64 ghcr.io/ajnart/homarr:latest
