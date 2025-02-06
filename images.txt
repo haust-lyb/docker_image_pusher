@@ -7,4 +7,6 @@
 # ftp
 #--platform=linux/amd64 stilliard/pure-ftpd:latest
 # homarr 自托管导航面板
---platform=linux/amd64 ghcr.io/ajnart/homarr:latest
+#--platform=linux/amd64 ghcr.io/ajnart/homarr:latest
+# npc
+--platform=linux/amd64 jayfong/npc:latest
