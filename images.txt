@@ -9,4 +9,6 @@
 # homarr 自托管导航面板
 #--platform=linux/amd64 ghcr.io/ajnart/homarr:latest
 # npc
---platform=linux/amd64 jayfong/npc:latest
+#--platform=linux/amd64 jayfong/npc:latest
+# calibre-web
+--platform=linux/amd64 lscr.io/linuxserver/calibre-web:latest
