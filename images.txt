@@ -11,4 +11,6 @@
 # npc
 #--platform=linux/amd64 jayfong/npc:latest
 # calibre-web
---platform=linux/amd64 lscr.io/linuxserver/calibre-web:latest
+#--platform=linux/amd64 lscr.io/linuxserver/calibre-web:latest
+--platform=linux/amd64 openjdk:8-jdk
+
