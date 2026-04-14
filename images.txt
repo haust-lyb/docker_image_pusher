@@ -18,4 +18,6 @@
 #--platform=linux/amd64 1panel/maxkb:v1.10.8-lts
 #--platform=linux/amd64 ghcr.io/wg-easy/wg-easy:15
 # nginx
---platform=linux/amd64 nginx:latest
+#--platform=linux/amd64 nginx:latest
+# cuda:11.8.0-devel-ubuntu22.04
+--platform=linux/amd64 nvcr.io/nvidia/cuda:11.8.0-devel-ubuntu22.04
