@@ -22,8 +22,9 @@
 # cuda:11.8.0-devel-ubuntu22.04
 #--platform=linux/amd64 nvcr.io/nvidia/cuda:11.8.0-devel-ubuntu22.04
 #--platform=linux/amd64 docker.io/paddlepaddle/paddle:2.6.2-gpu-cuda12.0-cudnn8.9-trt8.6
---platform=linux/amd64 livekit/caddyl4
---platform=linux/amd64 livekit/livekit-server:latest
---platform=linux/amd64 redis:7-alpine
---platform=linux/amd64 livekit/egress:latest
---platform=linux/amd64 livekit/ingress:latest
+#--platform=linux/amd64 livekit/caddyl4
+#--platform=linux/amd64 livekit/livekit-server:latest
+#--platform=linux/amd64 redis:7-alpine
+#--platform=linux/amd64 livekit/egress:latest
+#--platform=linux/amd64 livekit/ingress:latest
+--platform=linux/amd64 docker.io/library/node:18-alpine
