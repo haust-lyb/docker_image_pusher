@@ -27,4 +27,4 @@
 #--platform=linux/amd64 redis:7-alpine
 #--platform=linux/amd64 livekit/egress:latest
 #--platform=linux/amd64 livekit/ingress:latest
---platform=linux/amd64 docker.io/library/node:18-alpine
+#--platform=linux/amd64 docker.io/library/node:18-alpine
