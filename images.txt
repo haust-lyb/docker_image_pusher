@@ -29,5 +29,6 @@
 #--platform=linux/amd64 livekit/ingress:latest
 #--platform=linux/amd64 docker.io/library/node:18-alpine
 # myofficedevice
---platform=linux/amd64 ghcr.io/haust-lyb/myofficedevice:latest
---platform=linux/arm64 ghcr.io/haust-lyb/myofficedevice:latest
+# --platform=linux/amd64 ghcr.io/haust-lyb/myofficedevice:latest
+# --platform=linux/arm64 ghcr.io/haust-lyb/myofficedevice:latest
+--platform=linux/amd64 lmsysorg/sglang:latest
