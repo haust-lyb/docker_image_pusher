@@ -31,4 +31,5 @@
 # myofficedevice
 # --platform=linux/amd64 ghcr.io/haust-lyb/myofficedevice:latest
 # --platform=linux/arm64 ghcr.io/haust-lyb/myofficedevice:latest
---platform=linux/amd64 lmsysorg/sglang:latest
+# --platform=linux/amd64 lmsysorg/sglang:latest
+--platform=linux/amd64 vllm/vllm-openai:latest
